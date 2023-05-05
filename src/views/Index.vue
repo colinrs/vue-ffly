@@ -19,7 +19,7 @@ const Index = {
   name: 'Index',
   data () {
     return {
-      'message': 'Hello vue'
+      'message': 'Hello Vue in Index Page'
     }
   }
 }
