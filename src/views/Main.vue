@@ -2,15 +2,13 @@
 <template>
     <div>
       <el-container>
-  <el-header>Header</el-header>
-  <el-container>
-    <el-aside width="200px"><common-aside/></el-aside>
-    <el-main>     <router-view/></el-main>
-  </el-container>
-</el-container>
-
-    </div>
-  </template>
+        <el-aside width="auto"><common-aside /></el-aside>
+      <el-container>
+        <el-main><router-view/></el-main>
+      </el-container>
+    </el-container>
+  </div>
+</template>
 <script >
 import CommonAside from '@/components/CommonAside.vue'
 const Main = {
